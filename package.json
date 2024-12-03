@@ -1,0 +1,37 @@
+{
+  "name": "eco-impact-meter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "@nuxtjs/supabase": "^1.4.3",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@pinia/nuxt": "^0.5.5",
+    "@vee-validate/nuxt": "^4.14.7",
+    "@vee-validate/zod": "^4.14.7",
+    "@vueuse/nuxt": "^10.11.1",
+    "chart.js": "^4.4.6",
+    "dayjs": "^1.11.13",
+    "gsap": "^3.12.5",
+    "nuxt": "^3.14.1592",
+    "vue-chartjs": "^5.3.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.6.1",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@types/node": "^20.17.9",
+    "@vue/test-utils": "^2.4.6",
+    "typescript": "^5.7.2",
+    "vitest": "^1.6.0"
+  }
+}
